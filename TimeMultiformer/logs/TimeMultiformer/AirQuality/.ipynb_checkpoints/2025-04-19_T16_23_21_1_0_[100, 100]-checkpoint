@@ -1,0 +1,41 @@
+2025-04-19 16:23:21,649 - Namespace(stage='train', saving_impute_path='data/physio2012_37feats_01masked', data_path='data/AirQuality_seqlen24_01masked', seq_len=24, feature_num=132, seed=2023, model='AttnWGAIN', num_workers=1, MIT=True, model_type='AttentionGAN', device='cuda', epochs=10000, epochs_D=1, epochs_G=1, batch_size=128, lr=0.0001, optimizer_type='adam', weight_decay=0.0, n_groups=1, n_group_inner_layers=1, d_model=256, d_inner=512, n_head=4, d_k=128, d_v=64, dropout=0.1, diagonal_attention_mask=True, miss_rate=0.1, hint_rate=0, alpha=[100, 100], lambda_gp=10, saving_model_path='./SavedModel/AttnWGAIN/AirQuality', best_imputation_MAE=1.0, best_imputation_MAE_Threshold=0.9, best_imputation_RMSE=2.0, best_imputation_RMSE_Threshold=2.0, best_imputation_MRE=2.0, best_imputation_MRE_Threshold=2.0, min_mae_loss=0.5, log_saving='./logs/AttnWGAIN/AirQuality')
+2025-04-19 16:23:38,101 - [Epoch 0/10000] [validating MAE loss: 0.769887]
+2025-04-19 16:23:38,133 - Save Model [model_imputation_MAE_0.7699] 
+2025-04-19 16:23:38,134 - [Epoch 0/10000] [validating RMSE loss: 1.113925]
+2025-04-19 16:23:38,164 - [Epoch 0/10000] [validating MRE loss: 1.048548]
+2025-04-19 16:23:38,195 - ---------------分割线-----------------
+2025-04-19 16:23:52,923 - [Epoch 1/10000] [validating MAE loss: 0.732382]
+2025-04-19 16:23:52,957 - Save Model [model_imputation_MAE_0.7324] 
+2025-04-19 16:23:52,958 - [Epoch 1/10000] [validating RMSE loss: 1.073765]
+2025-04-19 16:23:52,988 - [Epoch 1/10000] [validating MRE loss: 0.997468]
+2025-04-19 16:23:53,020 - ---------------分割线-----------------
+2025-04-19 16:24:07,705 - [Epoch 2/10000] [validating MAE loss: 0.665924]
+2025-04-19 16:24:07,736 - Save Model [model_imputation_MAE_0.6659] 
+2025-04-19 16:24:07,737 - [Epoch 2/10000] [validating RMSE loss: 1.007975]
+2025-04-19 16:24:07,767 - [Epoch 2/10000] [validating MRE loss: 0.906955]
+2025-04-19 16:24:07,797 - ---------------分割线-----------------
+2025-04-19 16:24:22,249 - [Epoch 3/10000] [validating MAE loss: 0.595565]
+2025-04-19 16:24:22,281 - Save Model [model_imputation_MAE_0.5956] 
+2025-04-19 16:24:22,281 - [Epoch 3/10000] [validating RMSE loss: 0.933486]
+2025-04-19 16:24:22,311 - [Epoch 3/10000] [validating MRE loss: 0.811130]
+2025-04-19 16:24:22,341 - ---------------分割线-----------------
+2025-04-19 16:24:37,132 - [Epoch 4/10000] [validating MAE loss: 0.534078]
+2025-04-19 16:24:37,164 - Save Model [model_imputation_MAE_0.5341] 
+2025-04-19 16:24:37,164 - [Epoch 4/10000] [validating RMSE loss: 0.867069]
+2025-04-19 16:24:37,195 - [Epoch 4/10000] [validating MRE loss: 0.727388]
+2025-04-19 16:24:37,226 - ---------------分割线-----------------
+2025-04-19 16:24:51,895 - [Epoch 5/10000] [validating MAE loss: 0.487086]
+2025-04-19 16:24:51,926 - Save Model [model_imputation_MAE_0.4871] 
+2025-04-19 16:24:51,926 - [Epoch 5/10000] [validating RMSE loss: 0.815440]
+2025-04-19 16:24:51,956 - [Epoch 5/10000] [validating MRE loss: 0.663386]
+2025-04-19 16:24:51,986 - ---------------分割线-----------------
+2025-04-19 16:25:06,404 - [Epoch 6/10000] [validating MAE loss: 0.456878]
+2025-04-19 16:25:06,436 - Save Model [model_imputation_MAE_0.4569] 
+2025-04-19 16:25:06,436 - [Epoch 6/10000] [validating RMSE loss: 0.777011]
+2025-04-19 16:25:06,470 - [Epoch 6/10000] [validating MRE loss: 0.622245]
+2025-04-19 16:25:06,500 - ---------------分割线-----------------
+2025-04-19 16:25:21,463 - [Epoch 7/10000] [validating MAE loss: 0.430356]
+2025-04-19 16:25:21,494 - Save Model [model_imputation_MAE_0.4304] 
+2025-04-19 16:25:21,494 - [Epoch 7/10000] [validating RMSE loss: 0.746981]
+2025-04-19 16:25:21,525 - [Epoch 7/10000] [validating MRE loss: 0.586124]
+2025-04-19 16:25:21,558 - ---------------分割线-----------------
